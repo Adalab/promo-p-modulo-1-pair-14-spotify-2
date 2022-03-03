@@ -1,0 +1,134 @@
+:root {
+  --fuente-normal: "Roboto", sans-serif;
+}
+
+body {
+  font-family: var(--fuente-normal);
+  box-sizing: border-box; /* He cambiado el borde-box a body */
+}
+
+/* CABECERA */
+.cabecera {
+  color: white;
+  font-size: 25px;
+  background-color: black;
+  height: 5vh;
+  min-height: 30px;
+  display: flex;
+  position: sticky;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5px;
+  margin: 1px;
+}
+.logo {
+}
+.enlace {
+  display: none;
+}
+.menu {
+}
+
+/* MAIN */
+
+.blue {
+  background-color: #559bf0; /* He cambiado el color a uno más parecido */
+  color: white;
+  position: relative;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.contenedor_blue {
+  margin: 15px; /* He cambiado el padding a 15px, lo he cambiado por margin y lo he pasado de .blue aquí*/
+}
+.encabezado-1 {
+  font-weight: bold;
+  font-size: 58px; /* He cambiado el tamaño a 58px */
+
+  margin: 0;
+}
+.subtitulo {
+  font-size: 25px;
+  line-height: 40px; /* He añadadido un interlineado */
+}
+.green {
+  background-color: #3cbb69;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+
+  padding: 20px 0 15px 0;
+
+  border-radius: 25px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} /* He añadido todo este contenedor y las propiedades que le siguen */
+.condiciones {
+  color: white;
+  font-size: 14px;
+} /* He cambiado este contenedor a esta zona (estaba más abajo) */
+
+.white {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.encabezado-2 {
+  font-family: var(--fuente-normal);
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  margin: 20px;
+}
+
+.benefit-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 80%;
+  padding: 0;
+}
+
+.benefit {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 50px;
+}
+
+.image-benefit {
+  width: 100px;
+  height: 100px;
+  padding-right: 30px;
+}
+
+.benefit-title {
+  font-family: var(--fuente-normal);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.benefit-text {
+  font-family: var(--fuente-normal);
+  font-size: 15px;
+}
+h4 {
+  color: white;
+  font-size: 15px;
+}
+.enlace {
+  color: white;
+}
+
+/* FOOTER */

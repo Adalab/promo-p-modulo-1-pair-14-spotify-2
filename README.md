@@ -1,1 +1,2 @@
-# promo-p-modulo-1-pair-14-spotify2
+# promo-p-modulo-1-pair-6-spotify
+Ejercicio Spotify
