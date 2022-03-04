@@ -1,0 +1,40 @@
+.blue {
+  background-color: #559bf0; /* He cambiado el color a uno más parecido */
+  color: white;
+  position: relative;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.contenedor_blue {
+  margin: 15px; /* He cambiado el padding a 15px, lo he cambiado por margin y lo he pasado de .blue aquí*/
+}
+.encabezado-1 {
+  font-weight: bold;
+  font-size: 58px; /* He cambiado el tamaño a 58px */
+
+  margin: 0;
+}
+.subtitulo {
+  font-size: 25px;
+  line-height: 40px; /* He añadadido un interlineado */
+}
+.green {
+  background-color: #3cbb69;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+
+  padding: 20px 0 15px 0;
+
+  border-radius: 25px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} /* He añadido todo este contenedor y las propiedades que le siguen */
+.condiciones {
+  color: white;
+  font-size: 14px;
+} /* He cambiado este contenedor a esta zona (estaba más abajo) */

@@ -1,5 +1,29 @@
-.page__header {
+.cabecera {
+  color: white;
+  font-size: 25px;
+  background-color: black;
+  height: 5vh;
+  min-height: 30px;
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5px;
+  margin: 1px;
+}
+
+.logo {
+}
+
+.enlace {
+  display: none;
+}
+
+.menu {
 }
