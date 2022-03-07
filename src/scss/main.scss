@@ -1,10 +1,18 @@
 // @import "components/code";
 // @import "components/links";
-@import "core/mixins.scss";
+@import "core/mixins";
 @import "core/reset";
 @import "core/variables";
+/* CABECERA */
+@import "layout/header";
+/* MAIN */
+@import "layout/blue-section";
+@import "layout/white-section";
+/* FOOTER */
+@import "layout/footer";
 
 // @import "pages/index";
+@import "pages/signup";
 
 :root {
   --fuente-normal: "Roboto", sans-serif;
@@ -14,17 +22,3 @@ body {
   font-family: var(--fuente-normal);
   box-sizing: border-box; /* He cambiado el borde-box a body */
 }
-
-/* CABECERA */
-
-@import "layout/header";
-
-/* MAIN */
-
-@import "layout/blue-section";
-
-@import "layout/white-section";
-
-/* FOOTER */
-
-@import "layout/footer";
