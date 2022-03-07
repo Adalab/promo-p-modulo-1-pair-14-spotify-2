@@ -15,93 +15,139 @@
     </header>
 
     <main>
-      <section>
+      <section class="section-1">
+        <div>
         <h1>regístrate gratis para escuchar.</h1>
-
+        </div>
         <button>
           <a href="">registrarte con Facebook</a>
         </button>
-
+        <div>
         <button>
           <a href="">registrarte con Google</a>
         </button>
+        </div>
       </section>
 
-      <section class="section">
+      <section class="section-2">
         <form action="https://adalab-server-form.herokuapp.com/" method="get">
+          <h2 class="h2">Registrarte con tu correo electrónico</h2>
+        <div class="form">
+          <div class="group__mail">
+            <div class="mail">
+              <label for="mail">¿Cuál es tu correo electrónico?</label>
+            </div>
+            <input
+              placeholder="Pon tu correo electrónico."
+              id="mail"
+              type="email"
+              name="mail"
+            />
+          </div>
+
+          <div class="group__confirmation-email">
+             <div class="confirmation-email">
+                <label for="confirmation-email">Confirma el correo electrónico</label> 
+              </div>
+              <input
+                placeholder="Vuelve a poner tu correo electrónico."
+                id="confirmation-email"
+                type="email"
+                name="confirmation-email"
+            />
+          </div>
 
 
+          <div class="group__password">
+             <div class="password">
+                <label for="password">Crea una contraseña</label> 
+              </div>
+              <input
+                placeholder="Crea una contraseña."
+                id="password"
+                type="password"
+                name="password"
+            />    
+          </div>
+        
+         <div class="group__name">
+             <div class="password">
+                <label for="name">¿Cómo quieres que te llamemos?</label> 
+              </div>
+              <input
+                placeholder="Pon un nombre de perfil."
+                id="name"
+                type="text"
+                name="name"
+            /> </div>
+            <label> Esto aparece en tu perfil</label>
+
+         <!--Hasta aquí estilos-->
+
+         <div class="group__birthday">
+          <div class="birthday">
+            <label for="birthday">¿Cuál es tu fecha de nacimiento?</label> </div>
+          <input type="text" placeholder="DD">
+          <select id="birthday" name="birthday" >
+             <option value="birthday">Enero</option>
+             <option value="birthday">Febrero</option>
+             <option value="birthday">Marzo</option>
+             <option value="birthday">Abril</option>
+             <option value="birthday">Mayo</option>
+             <option value="birthday">Junio</option>
+             <option value="birthday">Julio</option>
+             <option value="birthday">Agosto</option>
+             <option value="birthday">Septiembre</option>
+             <option value="birthday">Octubre</option>
+             <option value="birthday">Noviembre</option>
+             <option value="birthday">Diciembre</option>
+          <input type="text" placeholder="AAAA">
+  
+         
+        </div>
           
-        <label for="correo">¿Cuál es tu correo electrónico?</label>
-        <input
-          placeholder="Pon tu correo electrónico."
-          id="correo"
-          type="email"
-          name="correo"
-        />
 
-        <label for="confirmarcorreo">¿Cuál es tu correo electrónico?</label>
-        <input
-          placeholder="Vuelve a poner tu correo electrónico."
-          id="confirmarcorreo"
-          type="email"
-          name="confirmarcorreo"
-        />
+         <div class="group__gender">
+          <label class="gender">¿Cuál es tu género?</label>
+          <div class="hombre">
+            <label for="gender">
+              <input id="gender" type="radio" name="gender" />
+              Hombre
+            </label>
+            </div>
+         
 
-        <label for="password">Crea una contraseña</label>
-        <input
-          placeholder="Crea una contraseña."
-          name="password"
-          type="password"
-          id="password"
-        />
+          <div class="mujer">
+            <label for="gender">
+              <input id="gender" type="radio" name="gender" />
+              Mujer
+            </label>
+          </div>
 
-        <label for="name">¿Cómo quieres que te llamemos? </label>
-        <input
-          placeholder="Pon un nombre de perfil"
-          id="name"
-          name="name"
-          type="text"
-        /> <label> Esto aparece en tu perfil</label>
-        <!--falta añadir mensaje al pie de la caja-->
+          <div class="hombre">
+            <label for="gender">
+              <input id="gender" type="radio" name="gender" />
+              No binario
+            </label>
+          </div>
+         </div>
 
-        <label for="birthday">¿Cuál es tu fecha de nacimiento?</label>
-        <input id="birthday" name="birthday" type="" />
-
-        <h3>¿Cuál es tu género?</h3>
-        <div class="hombre">
-          <label for="gender">
-            <input id="gender" type="radio" name="gender" />
-            Hombre
+        <div class="group__novedades">
+          <label for="novedades"> 
+            <input id="novedades" type="checkbox" name="novedades" />
+            Quiero que me enviéis novedades y ofertas de Spotify
           </label>
-        </div>
+          </div>
 
-        <div class="mujer">
-          <label for="gender">
-            <input id="gender" type="radio" name="gender" />
-            Mujer
+        <div class="group__compartir">
+            <input id="compartir" type="checkbox" name="compartir" /> Compartir mis
+            datos de registro von los proveedores de contenidos de Spotify para fines
+            de marketing. Ten en cuenta que tus datos pueden ser transferidos a un
+            país fuera del EE, tal y como se recoge en nuesta Política de
+            Privacidad.
           </label>
+          </div>  
         </div>
-
-        <div class="hombre">
-          <label for="gender">
-            <input id="gender" type="radio" name="gender" />
-            No binario
-          </label>
-        </div>
-
-        <label for="novedades">
-          <input id="novedades" type="checkbox" name="novedades" />
-          Quiero que me enviéis novedades y ofertas de Spotify
-        </label>
-
-        <label for="compartir">
-          <input id="compartir" type="checkbox" name="compartir" /> Compartir mis
-          datos de registro von los proveedores de contenidos de Spotify para fines
-          de marketing. Ten en cuenta que tus datos pueden ser transferidos a un
-          país fuera del EE, tal y como se recoge en nuesta Política de
-          Privacidad.</label
-        >
         </form>
     </section>
 
