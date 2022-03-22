@@ -23,15 +23,33 @@
     width: 312px; /*ajustar*/
     background-color: rgb(5, 5, 112);
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
     text-align: center;
+    margin-bottom: 7px;
 
     &--facebook {
       color: white;
       text-decoration: none;
     }
   }
+
+  &__b-white {
+    height: 30px;
+    width: 312px; /*ajustar*/
+    background-color: white;
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 7px;
+
+    &--google {
+      text-decoration: none;
+    }
+  }
 }
+
 .section-2 {
   display: flex;
   flex-direction: column;
